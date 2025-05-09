@@ -2,6 +2,7 @@
 #https://leetcode.com/problems/find-minimum-time-to-reach-last-room-i/
 
 #example problem
+import heapq
 moveTime = [[17,56], [97,80]]
 n = len(moveTime)
 m = len(moveTime[0])
