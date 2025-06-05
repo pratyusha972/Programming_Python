@@ -1,7 +1,7 @@
 #Problem:https://leetcode.com/problems/surrounded-regions/
 board = [["X","X","X","X"],["X","O","O","X"],["X","X","O","X"],["X","O","X","X"]]
 def dfs(x, y):
-    global board
+    global board, m, n
     board[x][y] = "P"
     directions = [(0,1), (1,0), (0,-1), (-1,0)]
     for (dx, dy) in directions:
