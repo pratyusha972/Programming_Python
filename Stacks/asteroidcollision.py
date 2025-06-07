@@ -1,3 +1,4 @@
+#Problem:https://leetcode.com/problems/asteroid-collision/
 l = []
 asteroids = [5,10,-5]
 for i in range(len(asteroids)):
