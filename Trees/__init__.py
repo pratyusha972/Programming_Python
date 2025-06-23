@@ -15,3 +15,15 @@ def createtree(l):
             node.right = recur(l, 2*ind+2)
         return node
     return recur(l, 0)
+
+
+def printtree(root):
+    def inorder(node, ans):
+        if node == None:
+            return ans
+        ans = inorder(node.left, ans)
+        ans.append(node.val)
+        ans = inorder(node.right, ans)
+        return ans
+    ans = inorder(root, [])
+    print(ans)
