@@ -1,7 +1,7 @@
 import sys
 import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from trees import createtree, TreeNode 
+from Trees import createtree, TreeNode 
 
 from collections import deque
 

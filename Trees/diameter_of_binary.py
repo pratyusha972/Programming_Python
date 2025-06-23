@@ -1,7 +1,7 @@
 import sys
 import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from trees import createtree, TreeNode 
+from Trees import createtree, TreeNode 
 
 treevals = [1,2,3,4,5]
 root = createtree(treevals)
